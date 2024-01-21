@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.app-container
+{
+    height: 600px;
+    width: 350px;
+    background-image: linear-gradient(#e92ebd, #fe0378);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.top-box
+{
+    height:150px;
+    background-color:rgb(226, 226, 226);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.top-box p
+{
+    font-size: 30px;
+    text-align:center;
+    padding-top: 30px;
+    color: #fa07a5;
+}
+.kash{
+    color:#0d0d0d;
+}
+.middle-box{
+    height: 150px;
+    background-image:linear-gradient(#e31fb5, #9e067a);
+    margin: -70px 30px 20px;
+    color:#fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.number{
+    font-size: 24px;
+    text-align: center;
+}
+.num{
+    height: 30px;
+    width: 200px; 
+    text-align: center;
+    font-size: 20px;
+}
+.payment{
+    width: 350px;
+    align-items: center;
+    color:#fff;
+    margin-top: 20px;
+    height:30px;
+    background-color:#d10154;
+    border-color:#920202;
+    cursor:pointer;
+    align-items: center;
+}

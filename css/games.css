@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;     
+}
+
+header{
+    width: 100%;
+    height: 120vh;
+    background-image: url('../backpic/aco.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-size: 100% 100%;
+}
+
+.nav-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.nav-section h2{
+    font-style:italic;
+    font-size: 5rem;
+    color:blueviolet;
+    font-family: 'Lily Script One', cursive;
+}
+.nav-section span{
+    color:crimson;
+    font-family: 'Lily Script One', cursive;
+}
+.nav-links {
+    display:flex;
+    gap: 2rem;
+}
+.nav-links li a {
+    font-family: 'Qwigley', cursive;
+    color:darkblue;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: 0.5s ease
+}
+.nav-links li a:hover {
+    color:rgb(144, 0, 255);
+}
+
+.navbar {
+    display:contents;
+    align-items: center;
+}
+.searchbar {
+    display:flex;
+    align-items: center;
+}
+#src{
+    width: 18rem;
+    height: 4rem;
+    border: 2px solid rgb(133, 252, 143);
+    color:fuchsia;
+    padding: 1rem;
+    background: transparent;
+}
+#btn {
+    width: 8rem;
+    height: 4rem;
+    border: 2px solid rgb(133, 252, 143);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    letter-spacing: 1px;
+    background-color: rgb(93, 204, 182);
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
+
+}
+
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 131, 201, 0.839), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+}
